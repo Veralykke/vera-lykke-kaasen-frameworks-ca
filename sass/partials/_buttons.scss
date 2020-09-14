@@ -1,0 +1,32 @@
+.product .btn {
+    width: 100%;
+    border: none;
+    background-color: $primary;
+    position: relative;
+    border-radius: 4px;
+}
+
+.product .btn:before {
+position: absolute;
+content: "";
+background-color:$background-dark;
+width: 35px;
+height: 100%;
+left: 0;
+top: 0;
+border-radius: 4px 0px 0px 4px;
+}
+
+.form-button {
+    color: #fff;
+    background-color: $background-dark;
+    border-color: $background-dark;
+    width: 100%;
+}
+
+@media(min-width:768px) {
+    .btn-outline-success{
+        margin-right: 100px;
+    }
+
+}

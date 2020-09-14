@@ -1,0 +1,47 @@
+.form-group{
+    background-color:$dark;
+}
+
+.order-md-1{
+    background-color:$dark;
+    padding: 30px;
+    margin-top: 45px;
+    border-radius: 8px;
+    box-shadow: 2px 4px $grey-light;
+    margin-bottom: 65px;
+}
+
+.order-md-2{
+    margin-right: 130px;
+    margin-left: 33px;
+}
+.nav-link {
+    font-size: 19px;
+    text-align: center;
+}
+h1{
+    font-size:1.9em;
+    font-family: playfair-Display, serif;
+    display: block;
+}
+.contact-h1{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.input-group-text{
+    background-color: $grey-light;
+}
+.form-control{
+    border:1px solid $dark;
+}
+
+.list-group{
+    margin-top: 65px;
+}
+@media(min-width:768px){
+    .order-md-2{
+        margin-right: 130px;
+        margin-left: 100px;
+        display: block;
+    }
+}
